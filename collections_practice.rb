@@ -1,7 +1,8 @@
 def begins_with_r(array)
-  if array.each.start_with?("r")
+  array.each do |words|
+    if words.start_with?("r")
     return "true"
-  else
-  return "false"
-  end
+    else
+    return "false"
+    end
 end
