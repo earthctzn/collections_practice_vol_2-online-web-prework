@@ -4,7 +4,7 @@ def begins_with_r(array)
       return false
       elsif x.start_with?("r") == true
       return true
-    else
+      else
       puts "invalid array"
       end
     end
